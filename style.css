@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: grey;
+}
+
+.fix {
+    display: flex;
+    position: fixed;
+    top: 406px;
+    left: 400px;
+    height: 80px;
+    width: 519px;
+    background-color: greenyellow;
+    color: brown;
+    border: 4px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px violet;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fix1 {
+    font-style: italic;
+    text-shadow: 1px 1px;
+}
+
+hr {
+    margin-top: 28px;
+}
+
+.top {
+    background-color: white;
+    color: brown;
+    border: 4px solid red;
+    height: 200px;
+    width: 371px;
+    position: relative;
+    top: 20px;
+    left: 423px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px violet;
+    text-align: center;
+}
+
+.tit {
+
+    position: absolute;
+    top: 46px;
+    left: 74px;
+    font-style: italic;
+    text-shadow: 1px 1px;
+}
+
+.bod {
+    border: 10px solid green;
+    box-sizing: border-box;
+    height: 882px;
+    width: 1280px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+
+.child1 {
+    float: left;
+    height: 333px;
+    width: 300px;
+    background-color: white;
+    color: brown;
+    border: 4px solid rgb(181, 73, 31);
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(160, 28, 78);
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgb(67, 12, 135);
+    padding-top: 60px;
+}
+
+.child2 {
+    float: right;
+    height: 333px;
+    width: 300px;
+    background-color: white;
+    color: brown;
+    border: 4px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px violet;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+.child2 img {
+    height: 200px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.child3 {
+    position: absolute;
+    top: 474px;
+    height: 333px;
+    width: 300px;
+    background-color: white;
+    color: brown;
+    border: 4px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px violet;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+    text-shadow: 1px 1px 1px blue;
+}
+
+.child4 {
+    position: absolute;
+    top: 474px;
+    left: 960px;
+    height: 333px;
+    width: 300px;
+    background-color: white;
+    color: brown;
+    border: 4px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px violet;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+.child4 span input {
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.child4 h1 {
+    padding-bottom: 50px;
+}
+
+.tx {
+    text-shadow: 1px 1px 1px red;
+}
+
+.foot {
+    margin-top: 20px;
+    position: relative;
+    left: 362px;
+    height: 421px;
+    width: 550px;
+    border: 5px solid purple;
+    box-sizing: border-box;
+    background-color: green;
+}
+.fruits{
+    height: 205px;
+    width: 270px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: yellow;
+    float: left;
+    text-align: center;
+}
+.vegetables{
+    height: 205px;
+width: 270px;
+box-sizing: border-box;
+border: 2px solid black;
+background-color: yellow;
+float: right;
+text-align: center;
+}
+.otheritems{
+    height: 172px;
+    width: 540px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: yellow;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
